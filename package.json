@@ -1,0 +1,15 @@
+{
+  "name": "pi-usage",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Subscription quotas, local token history, and provider service status for Pi",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "bin": {
+    "ai-usage": "./ai-usage.mjs",
+    "ai-tokens": "./ai-tokens.mjs",
+    "ai-status": "./ai-status.mjs"
+  }
+}
